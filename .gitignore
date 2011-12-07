@@ -4,3 +4,4 @@ log/*.log
 tmp/
 nbproject/
 .sass-cache/
+webrat.log
