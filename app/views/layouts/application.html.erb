@@ -15,6 +15,9 @@
         We are very sorry for any inconvenience.
       </p>
       <section class="round">
+        <% flash.each do |key, value| %>
+          <div class="flash <%= key %>"><%= value %></div>
+        <% end %>
         <%= yield %>
       </section>
       <%= render 'layouts/footer' %>
